@@ -13,4 +13,7 @@ span.translation_present {
   z-index: 1;
   background-color: orange;
   opacity:0.8;
+  #lost-i18n-translation-tr-missing-label:after, #lost-i18n-translation-tr-present-label:after {
+    content: ": ";
+  }
 }
